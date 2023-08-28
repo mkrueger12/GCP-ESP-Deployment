@@ -1,6 +1,6 @@
 ################################################
 # Fill out the following variables to configure
-# beside the title and descriptions below, do not quote the paramters
+# beside the title and descriptions for the YAML files, do not quote the paramters
 
 
 
@@ -12,16 +12,16 @@ export ESP_CONFIG_FILE_PATH=config/esp-config.yaml
 export API_CONFIG_FILE_PATH=config/api-config.yaml
 
 # GCP Project ID
-export PROJECT_ID=smrxfvy-cdigcp-devtest
+export PROJECT_ID=
 
 # Region
 export REGION=us-central1
 
 # Service Account
 # Should be the default compute service account
-export SERVICE_ACCOUNT=74423647140-compute@developer.gserviceaccount.com
+export SERVICE_ACCOUNT=
 
-# Name for Cloud Run ESP service. This can be any name you want. Lower Case.
+# Name for Cloud Run ESP service. This can be any name you want. lower Case.
 export CLOUD_RUN_SERVICE_NAME=
 
 #ESP Version, generally not needed to change this
