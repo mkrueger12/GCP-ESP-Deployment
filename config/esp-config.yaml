@@ -1,0 +1,36 @@
+swagger: '2.0'
+info:
+  title: ''
+  description: ''
+  version: 1.0.0
+host: ''
+schemes:
+  - https
+produces:
+  - application/json
+x-google-backend:
+  address: ''
+  path_translation: CONSTANT_ADDRESS
+paths:
+  /translate:
+    post:
+      summary: Translate text
+      operationId: translateText
+      responses:
+        200:
+          description: "OK"
+          schema:
+            type: string
+        400:
+          description: "Invalid"
+          schema:
+            type: string
+  /hello:
+    get:
+      summary: Cloud Run hello world
+      operationId: hello
+      responses:
+        '200':
+          description: A successful response
+          schema:
+            type: string
