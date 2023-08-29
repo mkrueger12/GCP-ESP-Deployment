@@ -35,7 +35,7 @@ export API_GATEWAY_NAME=
 # ESP Config File Paramters
 export ESP_TITLE=""
 export ESP_DESCRIPTION=""
-export CLOUD_FUNCTION_URL=https://sample-function-uc.a.run.app
+export CLOUD_FUNCTION_URL=https://sample-function-uc.a.run.app #This is the Cloud Run host url of the Cloud Function
 
 # API Config File Paramters
 export API_TITLE=""
