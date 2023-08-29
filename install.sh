@@ -83,6 +83,8 @@ function deploy_api(){
     --api=${API_NAME} --api-config=${API_CONFIG_NAME} \
     --location=${REGION} --project=${PROJECT_ID}
 
+  gcloud services enable $(gcloud api-gateway apis describe ${API_NAME} --format="value(managedService)") # Enable the API Gateway service using its service URL
+
   _echo "API Gateway Deployed Successfully..."
 
   }
